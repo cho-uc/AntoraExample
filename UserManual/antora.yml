@@ -1,0 +1,11 @@
+name: usermanual
+title: User Manual
+version: latest
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    release-status: PUBLIC
+    document-number: ABCCOMPANYLTD/SUM/0001
+    revnumber: 1
+    page-pdf-file: user-manual.pdf

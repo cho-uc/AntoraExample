@@ -1,0 +1,20 @@
+= Introduction
+
+
+== First section
+
+The purpose of this document 
+is to describe the usage of the sofware tool.
+
+[%hardbreaks]
+== Second Section
+The document is structured as follows:
+
+1. Introduction (this chapter): document introduction and provision of list of acronyms.
+2. Software Installation: overview of the installation process and the initial configuration setup.
+
+
+[%hardbreaks]
+== Third Section
+This is third section.
+

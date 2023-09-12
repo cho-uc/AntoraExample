@@ -1,0 +1,22 @@
+root_level: 0
+component_versions: '**'
+asciidoc:
+  attributes:
+    product-name: Orbit
+    project-url: https://abccompany.com/..../  
+    source-highlighter: rouge
+    pdf-theme: terma
+    pdf-themesdir: ./pdf-template/
+    listing-caption: Listing
+    icons: font
+    owner: ABC company
+    copyright-years: 2023
+    sectnums: true
+    sectnumlevels: 3
+    toc: left
+    toclevels: 3
+    title-page: true
+    xrefstyle: short
+    experimental: true
+build:
+  command: asciidoctor-pdf -r ./pdf-template/asciidoctor-pdf-extensions.rb -r asciidoctor-diagram --trace --sourcemap

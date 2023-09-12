@@ -1,0 +1,28 @@
+site:
+  title: ORBIT Documentation
+  url: https://abccompany.com/
+  start_page: usermanual::index.adoc
+content:
+  sources:
+    - url: ./
+      branches: [HEAD]
+      start_path: UserManual/
+output:
+  clean: true
+  dir: public
+antora:
+  extensions:
+  - '@antora/pdf-extension'
+  - '@antora/lunr-extension'
+asciidoc:
+  extensions:
+    - asciidoctor-kroki
+  attributes:
+    product-name: ORBIT
+    project-url: https://abccompany.com/
+    bib: bibliography#
+    experimental: true
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
