@@ -202,10 +202,7 @@ callout_list:
   margin_top_after_code: -$block_margin_bottom / 2
 table:
   background_color: $page_background_color
-  #head_background_color: <hex value>
-  #head_font_color: $base_font_color
   head_font_style: bold
-  #body_background_color: <hex value>
   body_stripe_background_color: f9f9f9
   foot_background_color: f0f0f0
   border_color: dddddd

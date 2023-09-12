@@ -1,5 +1,5 @@
 site:
-  title: ORBIT Documentation
+  title: Cool Software Documentation
   url: https://abccompany.com/
   start_page: usermanual::index.adoc
 content:
@@ -7,6 +7,9 @@ content:
     - url: ./
       branches: [HEAD]
       start_path: UserManual/
+    # - url: https://github.com/cho-uc/AntoraExample.git
+    #   branches: [HEAD, branch-v1.0.0, branch-v2.0.0]
+    #   start_path: OtherDoc/
 output:
   clean: true
   dir: public
@@ -18,7 +21,7 @@ asciidoc:
   extensions:
     - asciidoctor-kroki
   attributes:
-    product-name: ORBIT
+    product-name: CoolSoftware
     project-url: https://abccompany.com/
     bib: bibliography#
     experimental: true

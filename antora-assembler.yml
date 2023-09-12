@@ -1,11 +1,12 @@
 root_level: 0
 component_versions: '**'
+section_merge_strategy: fuse
 asciidoc:
   attributes:
-    product-name: Orbit
+    product-name: CoolSoftware
     project-url: https://abccompany.com/..../  
     source-highlighter: rouge
-    pdf-theme: terma
+    pdf-theme: abccompany
     pdf-themesdir: ./pdf-template/
     listing-caption: Listing
     icons: font
@@ -20,3 +21,4 @@ asciidoc:
     experimental: true
 build:
   command: asciidoctor-pdf -r ./pdf-template/asciidoctor-pdf-extensions.rb -r asciidoctor-diagram --trace --sourcemap
+  keep_aggregate_source: true

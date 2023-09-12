@@ -1,2 +1,13 @@
 * xref:index.adoc[Introduction]
-* xref:installation.adoc[Software Installation]
+
+* Definition
+** Configuration Files
+*** xref:staConfig.adoc[STA Configuration file]
+*** xref:spaConfig.adoc[SPA Configuration file]
+
+** Output Files
+*** xref:abc.adoc[ABC file]
+*** xref:def.adoc[DEF file]
+
+** Input Files
+*** xref:tda.adoc[Tracking Data Aggregate file]

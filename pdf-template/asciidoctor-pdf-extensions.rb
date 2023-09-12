@@ -1,12 +1,6 @@
-# coding: utf-8
 require 'asciidoctor-pdf' unless defined? ::Asciidoctor::PDF
 
 module AsciidoctorPdfExtensions
-#  include ::Asciidoctor::Converter
-#  include ::Asciidoctor::Writer
-#  include ::Asciidoctor::Prawn::Extensions
-
-#  ImageAttributeValueRx = /^image:{1,2}(.*?)\[(.*?)\]$/
 
   def layout_title_page doc
     return unless doc.header? && !doc.notitle
